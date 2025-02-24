@@ -1,0 +1,138 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #23232f, #323249);
+  }
+  .footer {
+    box-shadow: 0 4px 8px rgb(32, 32, 32), 0 6px 20px 0 black;
+    background-color: rgba(60, 60, 75, 0.3);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    font-weight: bold;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  .social-icons a {
+    background-color: #4b4b74d7;
+    border-radius: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.63, 0.72, 0.58, 1);
+    margin: 3px;
+    
+  }
+
+  .social-icons a:hover {
+    background-color: rgb(137, 122, 231);
+    color: black;
+    border-radius: 10px;
+  }
+  .header,
+  aside,
+  section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .header h2 {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.63, 0.72, 0.58, 1);
+  }
+  .header h2:hover {
+    color: rgb(137, 122, 231);
+    transform: scale(1.05);
+  }
+  .topnav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  .topnav a {
+    background-color: #3c3c4bd7;
+    border-radius: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.63, 0.72, 0.58, 1);
+    margin: 3px;
+  }
+  .topnav a:hover {
+    background-color: rgb(137, 122, 231);
+    color: black;
+    border-radius: 10px;
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    row-gap: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+
+  div.card {
+    border: 1px solid #ccc;
+    background-color: rgba(118, 106, 197, 0.753);
+    box-shadow: 0 4px 8px rgb(32, 32, 32), 0 6px 20px 0 black;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+
+    height: 400px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  .card img {
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    object-fit: cover;
+    width: 370px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .card p {
+    font-size: 10px;
+    color: rgb(235, 190, 235);
+  }
+  a {
+    text-decoration: none;
+  }
+  div.container {
+    color: white;
+    text-align: center;
+
+    position: relative;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    opacity: 0%;
+  }
